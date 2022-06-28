@@ -1,0 +1,237 @@
+/* form
+---------------------------------------------------------------------- */
+/* standard */
+.bpfed-editor-form #topic_title {
+	width: 100% !important;
+	box-sizing: border-box !important;
+}
+.bpfed-editor-form #topic_title + label {
+	text-indent: -10000px;
+	overflow: hidden;
+	height: 1em !important;
+	margin: 0 !important;
+}
+
+/* bbpress */
+.bpfed-editor-form .bbp-template-notice { 
+	display: none !important; 
+}
+.bpfed-editor-form fieldset.bbp-form legend {
+	border: none !important;
+	width: auto !important;
+	margin: 0 !important;
+	padding:  5px !important;
+	line-height: normal !important;
+}
+
+/* editor
+---------------------------------------------------------------------- */
+.bpfed-editor { 
+	margin-bottom: 1.5em; 
+}
+.bpfed-editor .mce-toolbar button { 
+	border: none !important; 
+	background: none !important; 
+	padding: 2px !important; 
+	margin: 0 !important; 
+	box-shadow: none !important;
+}
+.bpfed-editor .mce-toolbar .mce-preview {
+	bottom: 2px !important;
+	left: 3px !important;
+}
+.bpfed-editor .wp-editor-container {
+	border: 1px solid #e5e5e5 !important;
+}
+.bpfed-editor .wp-switch-editor { 
+	margin-top: 0; 
+	text-decoration: none !important; 
+	box-sizing: content-box !important; 
+}
+.bpfed-editor textarea {
+	width: 100% !important; 
+	height: auto !important; 
+	border: none !important; 
+	border-radius: 0 !important; 
+	background: white !important; 
+}
+.bpfed-editor .quicktags-toolbar .button {
+	padding: 0 5px !important;
+	margin: 1px !important;
+	font-size: 12px !important;
+	height: 26px !important;
+	line-height: 24px !important;
+	min-width: 18px !important;
+	border: 1px solid #ccc !important;
+	background: #fff !important;
+	color: #333 !important;
+	box-sizing: content-box !important;
+	box-shadow: none !important;
+}
+#wp-link-wrap { 
+	height: auto; 
+}
+#wp-link p.howto { 
+	display: none !important;
+}
+.screen-reader-text, 
+.screen-reader-text span, 
+.ui-helper-hidden-accessible {
+	position: absolute;
+	margin: -1px;
+	padding: 0;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0)
+	;border: 0;
+}
+
+/* content
+---------------------------------------------------------------------- */
+#forum-topic-form .item-list .post-content h4,
+#forum-topic-form .post-content h4,
+#forum-topic-form .post-content h5,
+#forum-topic-form .post-content h6 {
+	font-weight: bold;
+	width: auto;
+	margin: 0 0 1em 0;
+}
+#forum-topic-form .item-list .post-content h4,
+#forum-topic-form .post-content h4 {
+	font-size: 1.4em;
+}
+#forum-topic-form .post-content h5 {
+	font-size: 1.2em;
+}
+#forum-topic-form .post-content h6 {
+	font-size: 1.0em;
+}
+#forum-topic-form .post-content p, 
+#forum-topic-form .post-content ul, 
+#forum-topic-form .post-content ol, 
+#forum-topic-form .post-content pre, 
+#forum-topic-form .post-content blockquote,
+#forum-topic-form .post-content table {
+	margin: 0 0 2em 0;
+}
+#forum-topic-form .post-content p:last-child {
+	margin-bottom: 0;
+}
+#forum-topic-form .post-content ul, 
+#forum-topic-form .post-content ol {
+	margin-left: 2em;
+	padding: 0;
+}
+#forum-topic-form .post-content ul {
+	list-style: square;
+}
+#forum-topic-form .post-content ol {
+	list-style: decimal;
+}
+#forum-topic-form .post-content ol ol {
+	list-style: upper-alpha;
+}
+#forum-topic-form .post-content ol ol ol {
+	list-style: lower-roman;
+}
+#forum-topic-form .post-content ol ol ol ol {
+	list-style: lower-alpha;
+}
+#forum-topic-form .post-content ul ul,
+#forum-topic-form .post-content ol ol,
+#forum-topic-form .post-content ul ol,
+#forum-topic-form .post-content ol ul {
+	margin-bottom: 0;
+}
+#forum-topic-form .post-content li {
+	padding: 0 !important;
+	margin: 0 !important;
+	border: none !important;
+	list-style: inherit !important;
+}
+#forum-topic-form .post-content hr { 
+	margin: 2em 0;
+	display: block;
+}
+#forum-topic-form .post-content blockquote,
+#forum-topic-form .post-content pre {
+	padding: 1em 1.2em;
+	background: #eee;
+	border: none;
+	font-size: inherit;
+}
+#forum-topic-form .post-content blockquote {
+	font-style: italic;
+}
+#forum-topic-form .post-content strong,
+#forum-topic-form .post-content b {
+	font-weight: bold;
+}
+#forum-topic-form .post-content em,
+#forum-topic-form .post-content i {
+	font-style: italic;
+}
+#forum-topic-form .post-content big {
+	font-size: larger;
+}
+#forum-topic-form .post-content small {
+	font-size: smaller;
+}
+#forum-topic-form .post-content code {
+	background: #ddd;
+	font-family: monospace;
+}
+#forum-topic-form .post-content sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+#forum-topic-form .post-content sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+#forum-topic-form .post-content img,
+#bbpress-forums .bbp-body img {
+	max-width: 100%;
+	height: auto;
+}
+#forum-topic-form .post-content strike,
+#forum-topic-form .post-content del {
+	text-decoration: line-through;
+}
+#forum-topic-form .post-content th,
+#forum-topic-form .post-content td {
+	padding: .6em .8em;
+	font-size: inherit;
+}
+#forum-topic-form .post-content th {
+	font-weight: bold;
+	background: #eee;
+}
+#forum-topic-form .post-content tr.even td {
+	background: whitesmoke;
+}
+
+#forum-topic-form .post-content .aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#forum-topic-form .post-content .alignleft { 
+	float: left;
+}
+#forum-topic-form .post-content .alignright {
+	float: right;
+}
+#forum-topic-form .post-content img.alignleft,
+#bbpress-forums .bbp-body img.alignleft {
+	margin: .2em 2em 1em 0;
+}
+#forum-topic-form .post-content img.alignright,
+#bbpress-forums .bbp-body img.alignright {
+	margin: .2em 0 1em 2em;
+}
+#forum-topic-form .post-content img.aligncenter,
+#bbpress-forums .bbp-body img.aligncenter {
+	margin-bottom: 1em; 
+}
